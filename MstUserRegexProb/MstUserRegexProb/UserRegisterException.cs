@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MstUserRegexProb
 {
-    internal class UserRegisterException:Exception
+    
+    //class inheriting Base class
+    public class UserRegisterException : Exception
     {
         public ExceptionType type;
         //Enumeration
