@@ -55,8 +55,7 @@ namespace MstUserRegexProb
                 }
             }
         }
-<<<<<<< HEAD
-=======
+
         //Method to perform LambdaValidation.
         public static void LambdaValidate()
         {
@@ -65,7 +64,7 @@ namespace MstUserRegexProb
             LambdaValidation.ValidateMobileNumber();
             LambdaValidation.ValidateEmail();
         }
->>>>>>> UC11-ValidateUsingLambda
+
         //Program Entry Point
         static void Main(string[] args)
         {
