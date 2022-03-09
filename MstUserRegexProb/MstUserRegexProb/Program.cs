@@ -8,6 +8,7 @@ namespace MstUserRegexProb
 {
     public class Program
     {
+        //Method to perform UserRegistration
         public static void UserRegistration()
         {
             bool Continue = true;

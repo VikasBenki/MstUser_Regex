@@ -62,14 +62,14 @@ namespace UserRegisterTest
         public void TestPassword_ReturnTrue()
         {
             string excepted = "true";
-            var actual = UserRegister.ValidatePassword("SauGav76");
+            var actual = UserRegister.ValidatePassword("SauGav76@#$");
             Assert.AreEqual(excepted, actual);
         }
         [TestMethod]
         public void TestPassword_ReturnFalse()
         {
             string excepted = "false";
-            var actual = UserRegister.ValidatePassword("S9aura");
+            var actual = UserRegister.ValidatePassword("S9a@#$j");
             Assert.AreEqual(excepted, actual);
         }
     }
