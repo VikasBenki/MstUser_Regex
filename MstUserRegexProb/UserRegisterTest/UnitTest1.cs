@@ -4,6 +4,7 @@ using System;
 
 namespace UserRegisterTest
 {
+    
     [TestClass]
     public class UnitTest1
     {
@@ -61,14 +62,14 @@ namespace UserRegisterTest
         public void TestPassword_ReturnTrue()
         {
             string excepted = "true";
-            var actual = UserRegister.ValidatePassword("Saurav76");
+            var actual = UserRegister.ValidatePassword("SauGav76");
             Assert.AreEqual(excepted, actual);
         }
         [TestMethod]
         public void TestPassword_ReturnFalse()
         {
             string excepted = "false";
-            var actual = UserRegister.ValidatePassword("saurav");
+            var actual = UserRegister.ValidatePassword("S9aura");
             Assert.AreEqual(excepted, actual);
         }
     }
