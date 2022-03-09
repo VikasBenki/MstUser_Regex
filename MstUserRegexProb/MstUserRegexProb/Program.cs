@@ -56,7 +56,7 @@ namespace MstUserRegexProb
                 }
             }
         }
-        //Method to perform LambdaValidation
+        //Method to perform LambdaValidation.
         public static void LambdaValidate()
         {
             LambdaValidation.ValidateFirstName();
