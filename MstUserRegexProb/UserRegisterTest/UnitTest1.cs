@@ -4,7 +4,7 @@ using System;
 
 namespace UserRegisterTest
 {
-    
+
     [TestClass]
     public class UnitTest1
     {
